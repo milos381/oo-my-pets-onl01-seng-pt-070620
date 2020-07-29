@@ -1,13 +1,13 @@
 class Cat
 
-  attr_reader :name, :Owner
+  attr_reader :name, :owner
   @@all = []
 
-  # def initialize(name, Owner)
-  #   @name = name
-  #   @Owner = species
-  #   @@all << self
-  # end
+  def initialize(name, owner)
+    @name = name
+    @owner = Artist.new(name, species = "human")
+    @@all << self
+  end
 
-
+  
 end
