@@ -7,7 +7,7 @@ class Owner
     @species = species
   end
 
-  def say_species(species)
+  def say_species
     puts species
   end
 
