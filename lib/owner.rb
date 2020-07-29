@@ -7,9 +7,9 @@ class Owner
     @species = species
   end
 
-  def species(species)
-
-  end
+  # def species(species)
+  #
+  # end
 
 
 
