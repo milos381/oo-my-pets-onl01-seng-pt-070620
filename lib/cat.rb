@@ -5,7 +5,7 @@ class Cat
 
   def initialize(name, owner)
     @name = name
-    @owner = Owner.new(oj)
+    @owner = Owner.new(name)
     @@all << self
   end
 
