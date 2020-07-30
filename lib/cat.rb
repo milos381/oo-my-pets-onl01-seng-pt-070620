@@ -5,7 +5,7 @@ class Cat
 
   def initialize(name, owner)
     @name = name
-    @owner = Artist.new(name, species = "human")
+    @owner = Artist.new(name, species)
     @@all << self
   end
 
